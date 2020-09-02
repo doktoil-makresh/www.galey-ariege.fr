@@ -1,0 +1,84 @@
+body
+{
+	background-color: black;
+	color: white;
+}
+
+body.info
+{
+	color: black;
+	background-color: white;
+}
+
+h5, h3, .centered-content
+{
+	text-align: center;
+}
+
+h5
+{
+	font-weight: normal;
+}
+
+.info-container
+{
+	display: flex;
+	justify-content: center;
+	margin: 1em;
+	padding: 1em;
+}
+
+.info-container a
+{
+	color: black;
+	text-decoration-color: blue;
+}
+
+#side-links
+{
+	background-color: black;
+	color: white;
+	display: inline-block;
+	padding: 1em;
+}
+
+#side-links h4
+{
+	border-bottom: solid 1px white;
+	padding-bottom: 1em;
+}
+
+#side-links a
+{
+	color: white;
+	text-decoration-color: blue;
+}
+
+#main-info
+{
+	display: inline-block;
+	max-width: 50em;
+	padding: 1em;
+}
+
+#main-info p
+{
+	font-size: small;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+a.navlink:visited
+{
+	color: black;
+	text-decoration-color: blue;
+}
+
+footer
+{
+	border-top: 3px double #993333;
+}
+
